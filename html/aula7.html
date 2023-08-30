@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <form action="mailto:vinidovalle2017@gmail.com" method="post">
+        <fieldset>
+            <legend>identifique seu time</legend>
+            <label for="time">escolha seu time</label>
+            <select name="time" id="time">
+                <option value="op1" disabled selected>selecione seu time</option>
+                <option value="corinthians">Corinthians</option>
+                <option value="vasco">Vasco</option>
+                <option value="botafogo">botafogo</option>
+                <option value="saoPaulo">São paulo</option>
+            </select>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>fale sua cidade</legend>
+            <label for="cCidade">Qual é a sua cidade?</label>
+            <input type="text" name="cCidade" id="cCidade" list="sugetao">
+            <datalist id="sugetao" placeholder="Sua cidade">
+                <option value="Santos"></option>
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Guarulhos"></option>
+            </datalist>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>usando range</legend>
+            <p>utilizando range</p>
+            0
+            <input type="range" name="valor_01" id="valor_01">
+            10
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>textarea</legend>
+        <p> textarea</p>
+        <label for="text01">mais uma coisa ai</label> <br>
+        <textarea name="text01" id="text01" cols="30" rows="10" placeholder="alguma coisa ai" maxlength="140"
+            required></textarea>
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+    
+</body>
+
+</html>
+<!--  
+<nav>
+    <a href=""></a>
+</nav>
+<article></article>
+<section></section>
+<hr>
+<li></li>
+<ul></ul>
+<dl></dl>
+<dt></dt>
+<dd></dd> -->
